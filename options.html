@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Options for Skype Chrome Extension</title>
+    <link rel="stylesheet" href="options.css" type="text/css">
+  </head>
+  <body>
+  	<h2>Saved contacts</h2>
+  	<div id="description">
+  		Here you can save skype contacts or phone numbers. Each saved entry will appear when clicked on the extension icon.
+  		<br/>
+  		You can save either a skype username or a phone number.
+  		<br/>
+  		If you want to delete an entry, just leave the field blank.
+  		<br/><br/>
+  		<span>Don't forget to save!</span>
+  	</div>
+  	<ul id="contactList">
+  		<li><input type="text"/><a href=""><img src="plus.png" width="20"/></a></li>
+  	</ul>
+  	<button id="saveBtn" type="button">Save!</button><span id="savedMsg">Saved</span>
+  	<script src="jquery.min.js" type="text/javascript"></script>
+  	<script src="options.js" type="text/javascript"></script>
+  </body>
+</html>

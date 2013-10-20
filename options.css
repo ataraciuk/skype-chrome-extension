@@ -1,0 +1,27 @@
+#description > span {
+	color: red;
+	font-weight: bold;
+}
+
+img {
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+#savedMsg {
+	margin-left: 10px;
+	font-weight: bold;
+	display: none;
+}
+
+ul {
+	padding-left: 0;
+}
