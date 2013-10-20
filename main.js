@@ -23,6 +23,10 @@ var init = function() {
 			});
 			aElem.children().first().css({'margin': '0 10px', 'vertical-align': 'middle'});
 		}
+		console.log(document.activeElement);
+		$('a').on('focus', function(e){
+			(this).blur();
+		});
 	});
 };
 
