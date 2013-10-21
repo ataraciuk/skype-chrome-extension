@@ -25,3 +25,21 @@ li {
 ul {
 	padding-left: 0;
 }
+table {
+	border-spacing: 0px;
+	margin-top: 10px;
+}
+input, button {
+	margin: 0px;
+}
+button {
+	cursor: pointer;
+}
+th{
+	font-size: 12px;
+	padding-right: 10px;
+}
+.note {
+	font-weight: normal;
+	font-size: 10px;
+}

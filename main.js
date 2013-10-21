@@ -9,11 +9,11 @@ var init = function() {
 			Skype.ui({
 				name: "call",
 				element: "contact-"+i,
-				participants: [itemsC[i]],
-				listParticipants: "true",
+				participants: [itemsC[i].id],
 				video: "true"
 			});
 			var aElem = $('#contact-'+i+ ' a');
+			aElem.after('<span class="nickname">'+itemsC[i].nickname+'</span>');
 			callFunc[i] = aElem.attr('onclick');
 			aElem.removeAttr('onclick');
 			aElem.click(function(e){
